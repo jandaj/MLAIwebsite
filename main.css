@@ -1,0 +1,48 @@
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Share+Tech');
+
+/*Makes Elements Unselectable*/
+*.unselectable {
+    pointer-events: none;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+body {
+    margin:1em;
+    background-color:black;
+    color:#407C42;
+}
+h1 {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 4em;
+}
+p {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    visibility:hidden;
+}
+#status {
+    font-size:1.2em;
+    padding-left:1em;
+    padding-right:1em;
+    position: fixed;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+    border: 0.25em solid #407C42;
+}
+.uploader {
+    visibility: hidden;
+    padding:1em;
+    border-radius: 5em; 
+    border: none;
+}
+.headDivs{
+    float:none;
+    padding:1em;
+    border-radius: 5em; 
+    border: 0.25em solid #407C42 ;
+}
