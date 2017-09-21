@@ -1,0 +1,73 @@
+/*Import Font*/
+@import url('https://fonts.googleapis.com/css?family=Patua+One|Share+Tech');
+
+/*Makes Elements Unselectable*/
+*.unselectable {
+    pointer-events: none;
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+#loading-img {
+	opacity: 0;
+	display: none;
+    margin-left: auto;
+    margin-right: auto;
+	width:40vw;
+}
+img {
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+	width:40vw;
+	margin-bottom:5%;
+}
+body {
+    margin:1em;
+    background-color:black;
+    color:#407C42;
+}
+h1 {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 4em;
+}
+p {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    visibility:hidden;
+}
+.progress-status {
+	font-family: 'Patua One', cursive;
+    font-size: 2em;
+    color:#407C42;
+	visibility:visible;
+	display:none;
+}
+#status {
+    font-size:1.2em;
+    padding-left:1em;
+    padding-right:1em;
+    position: fixed;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+    border: 0.25em solid #407C42;
+	background-color: black;
+}
+.uploader {
+    visibility: hidden;
+    padding:1em;
+    border-radius: 5em; 
+    border: none;
+}
+.headDivs{
+    float:none;
+    padding:1em;
+    border-radius: 5em; 
+    border: 0.25em solid #407C42 ;
+}
+.progress {
+    display: none;
+}
