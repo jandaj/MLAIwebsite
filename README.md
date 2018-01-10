@@ -4,4 +4,6 @@ A demo web app running on a Node.JS backend that performs facial detection haar 
 
 ## Example
 
-![alt text](example1.jpg "Input")
+Input | Output
+:---:|:---:
+![alt text](example1.jpg "Input") | renders
